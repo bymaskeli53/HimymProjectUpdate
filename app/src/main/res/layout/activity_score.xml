@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/textViewBarneyScore"
+        android:layout_width="117dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="128dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBarney"
+        android:layout_width="129dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="Barney's highest score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMarshall"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="29dp"
+        android:text="Marshall's highest score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBarney" />
+
+    <TextView
+        android:id="@+id/textViewMarshallScore"
+        android:layout_width="105dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="128dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBarneyScore" />
+
+    <TextView
+        android:id="@+id/textViewLily"
+        android:layout_width="129dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="24dp"
+        android:text="Lily's highest score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMarshall" />
+
+    <TextView
+        android:id="@+id/textViewLilyScore"
+        android:layout_width="78dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="157dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewMarshallScore" />
+
+    <TextView
+        android:id="@+id/textViewTed"
+        android:layout_width="136dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="43dp"
+        android:text="Ted's highest score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLily" />
+
+    <TextView
+        android:id="@+id/textViewTedScore"
+        android:layout_width="95dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="135dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLilyScore" />
+
+    <TextView
+        android:id="@+id/textViewRobin"
+        android:layout_width="145dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="37dp"
+        android:text="Robin's highest score"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTed" />
+
+    <TextView
+        android:id="@+id/textViewRobinScore"
+        android:layout_width="122dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="45dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textViewRobin"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTedScore" />
+</androidx.constraintlayout.widget.ConstraintLayout>
